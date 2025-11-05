@@ -13,10 +13,6 @@
 
 #include"Temperature.h"
 #include "Rastenia.h"
-
-
- 
-
 #include <esp_now.h>
 #include <WiFi.h>
  
