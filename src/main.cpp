@@ -76,7 +76,7 @@ void loop() {
   myData.b = random(1,20);//int
   myData.c = tmp.gettemp(); //1.2;
   //myData.c1 = 0.12;
-  myData.d = "ESP32";//String
+  myData.d = "Kuhnia";//String
   myData.e = false;
  
   // Отправляем сообщение
