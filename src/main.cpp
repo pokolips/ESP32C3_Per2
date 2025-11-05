@@ -26,7 +26,7 @@ typedef struct struct_message {
     char a[10];
     int b;
     float c;
-    float c1;
+    //float c1;
     String d;
     bool e;
 } struct_message;
@@ -75,7 +75,7 @@ void loop() {
   strcpy(myData.a, "Namber_2");
   myData.b = random(1,20);//int
   myData.c = tmp.gettemp(); //1.2;
-  myData.c1 = 0.12;
+  //myData.c1 = 0.12;
   myData.d = "ESP32";//String
   myData.e = false;
  
