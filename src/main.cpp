@@ -85,5 +85,5 @@ void loop() {
   else {
     Serial.println("Error sending the data");
   }
-  delay(5000);
+  delay(5000);// Поменять время
 }  
