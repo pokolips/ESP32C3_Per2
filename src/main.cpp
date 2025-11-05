@@ -22,11 +22,13 @@ uint8_t broadcastAddress[] = {0xE8, 0x6B, 0xEA, 0xD4, 0x1F, 0x8C};
 // Структура в скетче платы-отправителя
 // должна совпадать с оной для получателя
 typedef struct struct_message {
-  char a[32];
-  int b;
-  float c;
-  String d;
-  bool e;
+    char ob;
+    char a[10];
+    int b;
+    float c;
+    float c1;
+    String d;
+    bool e;
 } struct_message;
  
 // Создаем структуру сообщения myData
@@ -69,9 +71,11 @@ void setup() {
 void loop() {
   // Указываем данные, которые будем отправлять
   tmp.settemp();
+  myData.ob = 'b';
   strcpy(myData.a, "Namber_2");
   myData.b = random(1,20);//int
   myData.c = tmp.gettemp(); //1.2;
+  myData.c1 = 0.12;
   myData.d = "ESP32";//String
   myData.e = false;
  
