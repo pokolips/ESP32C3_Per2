@@ -1,7 +1,3 @@
-#include <Arduino.h>
-
-#include"Temperature.h"
-
 /*
   Rui Santos
   Complete project details at https://RandomNerdTutorials.com/esp-now-esp32-arduino-ide/
